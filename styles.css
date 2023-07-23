@@ -1,15 +1,46 @@
-/*------------------GLOBAL--------------*/
-html, body {
-    margin: 0;
-    padding: 0;
+body, h1, img{
+    margin: 8px;
+    display: block;
 }
 
-p {
-    font-style: normal;
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
+#mainHeading {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    display: block;
 }
-/* selector {
-    Declaration Block
-} */
 
+#navBar{
+    display: inline;
+    text-align: center;
+    color: white;
+}
+
+.social > li {
+    display: inline;
+    margin: 0 8px;
+}
+
+#testP.funParagraph {
+    color: green;
+}
+
+.footer {
+    color: blue;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+    background-color: #111111;
+    text-decoration: none;
+}
+
+#image-resize {
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#image-resize.Barcelona {
+    display: inline-block;
+    margin: 8px;
+}
