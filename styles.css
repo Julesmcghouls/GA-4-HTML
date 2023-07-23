@@ -1,46 +1,57 @@
-body, h1, img{
-    margin: 8px;
-    display: block;
-}
-
-#mainHeading {
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+  }
+  
+  #mainHeading {
     text-align: center;
-    font-size: 50px;
-    display: block;
-}
-
-#navBar{
-    display: inline;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #navBar {
     text-align: center;
-    color: white;
-}
-
-.social > li {
+  }
+  
+  .social > li {
     display: inline;
     margin: 0 8px;
-}
-
-#testP.funParagraph {
-    color: green;
-}
-
-.footer {
-    color: blue;
-    text-align: center;
-    display: block;
-    padding: 20px 0;
-    background-color: #111111;
-    text-decoration: none;
-}
-
-#image-resize {
-    width: 500px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  article p {
+    line-height: 1.6;
+  }
+  
+  img {
+    max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-}
-
-#image-resize.Barcelona {
-    display: inline-block;
-    margin: 8px;
-}
+    padding: 10px;
+  }
+  
