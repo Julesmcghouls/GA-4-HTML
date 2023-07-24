@@ -1,16 +1,20 @@
+/* Rewrote in seperate file and copy/paste */
 body {
-    margin: 0;
+    margin: 8px;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
   }
   
+  /* Header Styles */
   header {
-    background-color: transparent;
+    background-color: gray;
     color: black;
     padding: 20px;
   }
   
   #mainHeading {
+    color: red;
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
@@ -25,6 +29,7 @@ body {
     margin: 0 8px;
   }
   
+  /* Main Content Styles */
   main {
     padding: 20px;
   }
@@ -37,9 +42,9 @@ body {
     color: #333;
   }
   
-  article p {
-    line-height: 1.6;
-  }
+  section article #testP.funParagraph {
+    color: green;
+  } /* Targets the <p> element with the id "testP" and class "funParagraph" that is inside an <article> element, inside a <section> element */
   
   img {
     max-width: 100%;
@@ -48,10 +53,31 @@ body {
     margin: 0 auto;
   }
   
+  /* Image Container and Images for Side by Side */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-container div {
+    flex-basis: calc(50% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image-resize {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  /* Footer Styles */
   footer {
-    background-color: #333;
+    background-color: gray;
+    font-size: small;
     color: white;
     text-align: center;
     padding: 10px;
   }
-  
