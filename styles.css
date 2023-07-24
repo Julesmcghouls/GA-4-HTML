@@ -1,9 +1,9 @@
-/* Rewrote in seperate file and copy/paste */
 body {
     margin: 8px;
     padding: 0;
     font-family:'Times New Roman', Times, serif;
-    display: block;
+    display: inline-block;
+    justify-content: center;
   }
   
   /* Header Styles */
@@ -17,7 +17,7 @@ body {
     color: red;
     text-align: center;
     font-size: 36px;
-    margin-bottom: 20px;
+    
   }
   
   #navBar {
@@ -47,7 +47,7 @@ body {
   } /* Targets the <p> element with the id "testP" and class "funParagraph" that is inside an <article> element, inside a <section> element */
   
   img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     display: block;
     margin: 0 auto;
